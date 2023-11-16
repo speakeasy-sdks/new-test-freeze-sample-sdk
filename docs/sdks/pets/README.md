@@ -17,9 +17,10 @@ Create a pet
 package main
 
 import(
+	newtestfreezesamplesdk "github.com/speakeasy-sdks/new-test-freeze-sample-sdk"
 	"context"
 	"log"
-	newtestfreezesamplesdk "github.com/speakeasy-sdks/new-test-freeze-sample-sdk"
+	"net/http"
 )
 
 func main() {
@@ -61,9 +62,9 @@ List all pets
 package main
 
 import(
+	newtestfreezesamplesdk "github.com/speakeasy-sdks/new-test-freeze-sample-sdk"
 	"context"
 	"log"
-	newtestfreezesamplesdk "github.com/speakeasy-sdks/new-test-freeze-sample-sdk"
 )
 
 func main() {
@@ -109,9 +110,9 @@ Info for a specific pet
 package main
 
 import(
+	newtestfreezesamplesdk "github.com/speakeasy-sdks/new-test-freeze-sample-sdk"
 	"context"
 	"log"
-	newtestfreezesamplesdk "github.com/speakeasy-sdks/new-test-freeze-sample-sdk"
 )
 
 func main() {

@@ -29,3 +29,13 @@ Based on:
 - [go v0.2.1] .
 ### Releases
 - [Go v0.2.1] https://github.com/speakeasy-sdks/new-test-freeze-sample-sdk/releases/tag/v0.2.1 - .
+
+## 2023-11-16 00:35:44
+### Changes
+Based on:
+- OpenAPI Doc 1.0.0 
+- Speakeasy CLI 1.120.3 (2.192.1) https://github.com/speakeasy-api/speakeasy
+### Generated
+- [go v0.2.2] .
+### Releases
+- [Go v0.2.2] https://github.com/speakeasy-sdks/new-test-freeze-sample-sdk/releases/tag/v0.2.2 - .
