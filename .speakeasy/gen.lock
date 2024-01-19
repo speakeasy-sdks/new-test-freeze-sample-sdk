@@ -4,7 +4,7 @@ management:
   docChecksum: 21c25ca8a734b4fb704e98d966524ee0
   docVersion: 1.0.0
   speakeasyVersion: internal
-  generationVersion: 2.234.3
+  generationVersion: 2.237.2
   releaseVersion: 0.3.2
   configChecksum: 28ac0fc916bbeb0fc9f97baec24eab08
   repoURL: https://github.com/speakeasy-sdks/new-test-freeze-sample-sdk.git
@@ -21,7 +21,6 @@ generatedFiles:
   - swaggerpetstore.go
   - go.mod
   - go.sum
-  - tests/helpers.go
   - pkg/models/sdkerrors/sdkerror.go
   - pkg/types/bigint.go
   - pkg/types/date.go
