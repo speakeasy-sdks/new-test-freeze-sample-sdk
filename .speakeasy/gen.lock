@@ -4,9 +4,9 @@ management:
   docChecksum: 21c25ca8a734b4fb704e98d966524ee0
   docVersion: 1.0.0
   speakeasyVersion: internal
-  generationVersion: 2.250.2
-  releaseVersion: 0.4.0
-  configChecksum: 17f92cc07d83d99ed623e25902c96ab1
+  generationVersion: 2.253.0
+  releaseVersion: 0.4.1
+  configChecksum: 2b896fc9785b6d3bb98e261aa52f0d1c
   repoURL: https://github.com/speakeasy-sdks/new-test-freeze-sample-sdk.git
   repoSubDirectory: .
   installationURL: https://github.com/speakeasy-sdks/new-test-freeze-sample-sdk
