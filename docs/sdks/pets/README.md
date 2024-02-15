@@ -119,7 +119,7 @@ func main() {
     s := newtestfreezesamplesdk.New()
 
 
-    var petID string = "string"
+    var petID string = "<value>"
 
     ctx := context.Background()
     res, err := s.Pets.ShowPetByID(ctx, petID)

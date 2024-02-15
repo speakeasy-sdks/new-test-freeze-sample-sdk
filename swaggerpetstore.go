@@ -4,6 +4,7 @@ package newtestfreezesamplesdk
 
 import (
 	"fmt"
+	"github.com/speakeasy-sdks/new-test-freeze-sample-sdk/internal/hooks"
 	"github.com/speakeasy-sdks/new-test-freeze-sample-sdk/pkg/utils"
 	"net/http"
 	"time"
@@ -49,6 +50,7 @@ type sdkConfiguration struct {
 	GenVersion        string
 	UserAgent         string
 	RetryConfig       *utils.RetryConfig
+	Hooks             *hooks.Hooks
 }
 
 func (c *sdkConfiguration) GetServerDetails() (string, map[string]string) {
@@ -115,14 +117,17 @@ func New(opts ...SDKOption) *SwaggerPetstore {
 		sdkConfiguration: sdkConfiguration{
 			Language:          "go",
 			OpenAPIDocVersion: "1.0.0",
-			SDKVersion:        "0.4.1",
-			GenVersion:        "2.253.0",
-			UserAgent:         "speakeasy-sdk/go 0.4.1 2.253.0 1.0.0 github.com/speakeasy-sdks/new-test-freeze-sample-sdk",
+			SDKVersion:        "0.5.0",
+			GenVersion:        "2.258.0",
+			UserAgent:         "speakeasy-sdk/go 0.5.0 2.258.0 1.0.0 github.com/speakeasy-sdks/new-test-freeze-sample-sdk",
+			Hooks:             hooks.New(),
 		},
 	}
 	for _, opt := range opts {
 		opt(sdk)
 	}
+
+	sdk.sdkConfiguration.DefaultClient = sdk.sdkConfiguration.Hooks.ClientInit(sdk.sdkConfiguration.DefaultClient)
 
 	// Use WithClient to override the default client if you would like to customize the timeout
 	if sdk.sdkConfiguration.DefaultClient == nil {
