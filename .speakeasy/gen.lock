@@ -3,17 +3,17 @@ id: 4f85e3ad-206f-4cac-9e3b-9db073e181da
 management:
   docChecksum: 21c25ca8a734b4fb704e98d966524ee0
   docVersion: 1.0.0
-  speakeasyVersion: 1.207.1
-  generationVersion: 2.280.6
-  releaseVersion: 0.6.1
-  configChecksum: bcf07be242474ed2cdc1a73d24ff2fc3
+  speakeasyVersion: 1.227.0
+  generationVersion: 2.291.0
+  releaseVersion: 0.6.2
+  configChecksum: 5db12185587dbd460278ed8f5d11744d
   repoURL: https://github.com/speakeasy-sdks/new-test-freeze-sample-sdk.git
   repoSubDirectory: .
   installationURL: https://github.com/speakeasy-sdks/new-test-freeze-sample-sdk
   published: true
 features:
   go:
-    core: 3.4.4
+    core: 3.4.5
     flattening: 2.81.1
     globalServerURLs: 2.82.2
     responseFormat: 0.1.0
